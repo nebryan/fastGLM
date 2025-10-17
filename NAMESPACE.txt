@@ -1,0 +1,4 @@
+useDynLib(fastGLM, .registration = TRUE)
+importFrom(Rcpp, sourceCpp)
+export(cpp_poisson_irls)
+export(cpp_matched_pair_binomial_irls)
